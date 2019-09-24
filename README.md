@@ -23,3 +23,6 @@ docker-compose run app sh -c "python manage.py startapp core"
 
 Creation migration file
 docker-compose run app sh -c "python manage.py makemigrations core"
+
+To create super user -
+docker-compose run app sh -c "python manage.py createsuperuser"
